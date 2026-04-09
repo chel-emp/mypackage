@@ -10,3 +10,7 @@ license = {file = "LICENSE.txt"}
 dependencies = [
   "numpy",
 ]
+[project.optional-dependencies]
+dev = [
+  "pre-commit",
+]
